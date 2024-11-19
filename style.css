@@ -1,0 +1,104 @@
+body{
+    margin: 0;
+    padding: 0px;
+    background-color: #ff9475;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header{
+    margin: 0 ;
+    position: fixed;
+    padding: 8px 0;
+    text-align: center;
+    top:0;
+    width: 100%;
+    background-color: #c55d53;
+}
+
+header nav{
+    margin: 0 auto;
+    padding: 0 1em;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+}
+
+header nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+}
+
+header nav ul li{
+    display: inline;
+    margin-right: 10px;
+    padding: 10px;
+}
+
+header nav ul li a{
+    color: antiquewhite;
+    padding: 1em 1em;
+    margin: 0;
+    text-decoration: none;
+}
+
+header nav ul li a:hover{
+    background-color: #6c2d39;
+}
+
+h1{
+    text-align: center;
+}
+
+main{
+    margin-top: 2em;
+    padding: 20px;
+}
+
+.formulario{
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #69a7e2;
+    border-radius: 12px;
+    box-shadow: 2px 2px 20px rgba(0,0,0,0.1);
+    background-color: #e9c480;
+}
+
+label{
+    display: block;
+    margin: 3px 0 3px;
+    font-weight: bold;
+    width: 100%;
+}
+
+
+input{
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 25px;
+    border: 2px solid #707070;
+    border-radius: 5px;
+    resize: none;
+}
+
+img{
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+    border-radius: 5px;
+}
+
+input[type="submit"]{
+    margin: 10px auto 0 auto;
+    display: block;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover{
+    background-color: #ffc083;
+}
+   
